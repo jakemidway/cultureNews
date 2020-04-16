@@ -116,3 +116,61 @@ a {
 	line-height: 1.5;
 	color: #202020;
 }
+
+.promo {
+	background: #f7f7f7;
+	text-align: center;
+	padding: 36px 0 46px;
+	font-size: 12px;
+}
+
+.promo .conteiner {
+	background: #fff;
+}
+.promo h2{
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 46px;
+}
+
+.promo h3{
+	font-family: 'Yeseva One', cursive;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.promo li {
+	/*margin-bottom: 102px;*/
+}
+.promo li p {
+	width: 362px;
+	margin: auto;
+}
+.promo li:after {
+	content: '';
+	margin: auto;
+	display: block;
+	background: #f7f7f7;
+	width: 100px;
+	height: 2px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.promo li:last-child:after {
+	height: 0px;
+	margin-bottom: 52px;
+}
+
+.promo a {
+	background: #ff7931;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 32px;
+	padding-right: 32px;
+	letter-spacing: 7px;
+
+}
