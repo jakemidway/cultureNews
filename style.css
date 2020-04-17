@@ -27,7 +27,9 @@ a {
 	padding: 70px 0 70px;
 	/*border: 1px solid red;*/
 }
-
+.mian{
+	margin-bottom: 50px;
+}
 .main-header-nav a{
 	text-transform: uppercase;
 }
@@ -118,15 +120,15 @@ a {
 }
 
 .promo {
+	position: relative;
 	background: #f7f7f7;
 	text-align: center;
-	padding: 36px 0 46px;
+	/*padding: 36px 0 46px;*/
 	font-size: 12px;
+	height: 600px;
 }
 
-.promo .conteiner {
-	background: #fff;
-}
+.promo .conteiner {}
 .promo h2{
 	font-weight: 400;
 	text-transform: uppercase;
@@ -173,4 +175,63 @@ a {
 	padding-right: 32px;
 	letter-spacing: 7px;
 
+}
+.circle {
+	width: 800px;
+	height: 800px;
+	border-radius: 50%;
+	position: absolute;
+	background: #fff;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	z-index: 0;
+}
+.text{
+	position: relative;
+	top: 55px;
+	z-index: 1;
+}
+
+footer {
+	position: relative;
+	top: 50px;
+	background: #575757;
+	color: #fff;
+	z-index: 2;
+	text-align: center;
+	padding-top: 36px;
+}
+footer a {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footer-navigation-item{
+	display: inline-block;
+	margin-right: 20px;
+}
+.footer-navigation{
+	padding: 42px 0 50px; 
+}
+.footer-navigation:after{
+	content: '';
+	margin: auto;
+	display: block;
+	background: #f7f7f7;
+	width: 50%;
+	height: 2px;
+	margin-top: 32px;
+	/*margin-bottom: 32px;*/
+}
+
+.social-list{
+	width: 325px;
+	margin: auto;
+	padding-bottom: 47px;
+}
+
+.social-list-item{
+	display: block;
+	float: left;
+	margin-right: 20px;
 }
